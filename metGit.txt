@@ -10,7 +10,7 @@ git remote add origin https://github.com/Ammvi/MetTheHtml.git	//添加远程仓�
 git push origin master											//将本地仓库内容提交至github仓库
 git clone https://github.com/2dust/v2rayN.git					//将Github的https://github.com/2dust/v2rayN.git仓库克隆至本地
 git config --global credential.helper store						//将账号密码信息长期保存至本地（不用重复填写）
-git reglog														//查看所有的版本信息
+git reflog														//查看所有的版本信息
 git log 														//查看提交日志
 git diff 														//查看版本差异
 git reset --head HEAD^											//回退上一个版本
