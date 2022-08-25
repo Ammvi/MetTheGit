@@ -9,3 +9,4 @@ ssh-keygen -t rsa -C "577327540@qq.com"				//生产SSH密钥对，将公钥id_rs
 git remote add origin https://github.com/Ammvi/MetTheHtml.git	//添加远程仓库
 git push origin master								//将本地仓库内容提交至github仓库
 git clone https://github.com/2dust/v2rayN.git				//将Github的https://github.com/2dust/v2rayN.git仓库克隆至本地
+git config --global credential.helper store					//将账号密码信息长期保存至本地（不用重复填写）
