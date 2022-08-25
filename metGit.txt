@@ -1,11 +1,11 @@
 git config --global user.name "Ammvi"      						//设置作者名
-git config --global user.emile "577327540@qq.com" 				//设置作者联系方式
+git config --global user.emile "5xxxxx0@qq.com" 				//设置作者联系方式
 git init MetTheHtml   											//初始化本地仓库MetTheHtml
 echo "Hello,World" > metgit.txt   								//创建git本地工作区文件
 git add metgit.txt												//将本地工作区文件metgit.txt加入暂存区
 git status														//查看当前项目文件状态
 git commit metgit.txt -m "One Commit"                   		//将暂存区文件提交至本地仓库
-ssh-keygen -t rsa -C "577327540@qq.com"							//生产SSH密钥对，将公钥id_rsa.pub填写在github上
+ssh-keygen -t rsa -C "5xxxxx0@qq.com"							//生产SSH密钥对，将公钥id_rsa.pub填写在github上
 git remote add origin https://github.com/Ammvi/MetTheHtml.git	//添加远程仓库
 git push origin master											//将本地仓库内容提交至github仓库
 git clone https://github.com/2dust/v2rayN.git					//将Github的https://github.com/2dust/v2rayN.git仓库克隆至本地
